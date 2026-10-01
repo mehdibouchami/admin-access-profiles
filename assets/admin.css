@@ -1,0 +1,37 @@
+.aap-wrap .aap-card { background: #fff; border: 1px solid #dcdcde; padding: 4px 20px 16px; margin: 16px 0; max-width: 1000px; }
+.aap-wrap .aap-card > h2 { margin-top: 16px; }
+.aap-wrap .aap-profile-title code { font-size: 12px; font-weight: normal; margin-left: 8px; }
+.aap-wrap .aap-jump a { margin-right: 14px; }
+.aap-wrap .aap-warning { color: #b32d2e; margin: 4px 0 0; }
+.aap-wrap .aap-badge { display: inline-block; padding: 1px 8px; border-radius: 10px; background: #f0f0f1; color: #50575e; font-size: 12px; line-height: 18px; }
+.aap-wrap .aap-on { background: #d1f0d6; color: #0a5c1f; }
+.aap-wrap .aap-new { background: #fcf0c3; color: #6b4e00; font-weight: 600; }
+.aap-wrap .aap-users { list-style: disc; margin-left: 20px; }
+.aap-wrap .aap-preset { display: block; margin: 4px 0; }
+.aap-wrap .aap-pack { display: grid; grid-template-columns: auto 1fr; column-gap: 8px; align-items: center; padding: 10px 0; border-top: 1px solid #f0f0f1; }
+.aap-wrap .aap-pack .aap-badge, .aap-wrap .aap-pack .description { grid-column: 2; justify-self: start; }
+.aap-wrap .aap-toggles td { vertical-align: top; }
+.aap-wrap .aap-toggles td:first-child { width: 60%; }
+.aap-wrap .aap-status { width: 140px; }
+.aap-wrap .aap-mode { margin: 8px 0 12px; line-height: 2; }
+.aap-wrap .aap-actions { white-space: nowrap; }
+.aap-wrap .aap-actions form { display: inline; margin-left: 8px; }
+.aap-wrap .aap-delete { color: #b32d2e; }
+
+.aap-tree, .aap-tree ul { list-style: none; margin: 0; padding: 0; }
+.aap-tree { margin-top: 8px; }
+.aap-tree > li { border: 1px solid #dcdcde; margin-bottom: 6px; padding: 6px 10px; }
+.aap-tree ul { margin: 4px 0 0 26px; }
+.aap-tree .aap-row { display: flex; align-items: center; gap: 8px; padding: 3px 0; flex-wrap: wrap; }
+.aap-tree .aap-top > .aap-row .aap-title { font-weight: 600; }
+.aap-tree code { font-size: 11px; color: #646970; background: none; padding: 0; }
+.aap-tree .aap-note { font-size: 12px; color: #646970; font-style: italic; }
+.aap-tree .aap-locked { opacity: 0.55; }
+.aap-tree .aap-locked .aap-note { color: #b32d2e; font-style: normal; }
+
+.aap-filters { margin: 12px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.aap-log pre { white-space: pre-wrap; word-break: break-word; max-width: 520px; font-size: 11px; margin: 4px 0 0; }
+.aap-log .aap-event-blocked .aap-badge { background: #fbe2e2; color: #8a1f1f; }
+.aap-version { border: 1px solid #dcdcde; background: #fff; padding: 8px 12px; margin-bottom: 6px; }
+.aap-version summary { cursor: pointer; font-weight: 600; }
+.aap-wrap .aap-needs { background: #fcf0e1; color: #8a4b00; }
